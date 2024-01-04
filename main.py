@@ -122,6 +122,26 @@ def draw_piece(win, piece):
                              Point(piece.pos[0] + 15, (piece.pos[1]+1) + 20))
         rook.setFill(piece.color)
         rook.draw(win)
+    elif piece.type == 'knight':
+        rook = Rectangle(Point(piece.pos[0] - 15, piece.pos[1] - 20),
+                             Point(piece.pos[0] + 15, (piece.pos[1]+1) + 20))
+        rook.setFill(piece.color)
+        rook.draw(win)
+    elif piece.type == 'bishop':
+        rook = Rectangle(Point(piece.pos[0] - 15, piece.pos[1] - 20),
+                             Point(piece.pos[0] + 15, (piece.pos[1]+1) + 20))
+        rook.setFill(piece.color)
+        rook.draw(win)
+    elif piece.type == 'queen':
+        rook = Rectangle(Point(piece.pos[0] - 15, piece.pos[1] - 20),
+                             Point(piece.pos[0] + 15, (piece.pos[1]+1) + 20))
+        rook.setFill(piece.color)
+        rook.draw(win)
+    elif piece.type == 'king':
+        rook = Rectangle(Point(piece.pos[0] - 15, piece.pos[1] - 20),
+                             Point(piece.pos[0] + 15, (piece.pos[1]+1) + 20))
+        rook.setFill(piece.color)
+        rook.draw(win)
 
 
 # END FUNCTIONS
